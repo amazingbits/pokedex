@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Pokedex</title>
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="logo">
-            <span>Pokédex</span>
-        </div>
+      <div class="logo">
+        <span>Pokédex</span>
+      </div>
 
-        <div class="search-input">
-            <i data-feather="search"></i>
-            <input type="text" name="search" id="search" placeholder="Type a pokemon name or number">
-        </div>
+      <div class="search-input">
+        <i data-feather="search"></i>
+        <input type="text" name="search" id="search" placeholder="Type a pokemon name or number" />
+      </div>
     </header>
 
     <div class="pokemon-list">
-
+        <!--
+        <div class="pokemon-card" data-url="/">
+            <span class="pokemon-number">#1</span>
+            <img src="https://raw.githubusercontent.com/pokeapi/sprites/master/sprites/pokemon/other/dream-world/1.svg" class="pokemon-image">
+            <span class="pokemon-name">Bulbasaur</span>
+        </div>
+        -->
     </div>
 
     <script src="./assets/js/vendor/feather-icons.js"></script>
+    <script src="./assets/js/config.js"></script>
+    <script src="./assets/js/helpers.js"></script>
+    <script type="module" src="./assets/js/scripts.js"></script>
     <script>
-        feather.replace();
+      feather.replace();
     </script>
-</body>
-
+  </body>
 </html>
