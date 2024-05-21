@@ -27,19 +27,15 @@ Quando você clica em algum pokemon da lista, a página de `detalhes` irá abrir
 
 #### Prints da tela
 
-https://ibb.co/wNqPcjH
-https://ibb.co/5KvZ0yK
-https://ibb.co/KL6psQ2
-
 `Tela inicial`
 <div align="center">
-    <img src="https://i.ibb.co/k9KsDr4/pokedex-tela-inicial.jpg" alt="jogo" style="border-radius:10px;" width="380px" />
+    <img src="https://i.ibb.co/k9KsDr4/pokedex-tela-inicial.jpg" alt="jogo" style="border-radius:10px;" />
 </div>
 <br>
 
 `Tela detalhes (web)`
 <div align="center">
-    <img src="https://i.ibb.co/jJGtN2J/pokedex-tela-detalhes.jpg" alt="jogo" style="border-radius:10px;" width="380px" />
+    <img src="https://i.ibb.co/jJGtN2J/pokedex-tela-detalhes.jpg" alt="jogo" style="border-radius:10px;" />
 </div>
 <br>
 
